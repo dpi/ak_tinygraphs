@@ -1,6 +1,8 @@
 Tinygraph services for Avatar Kit
 https://github.com/dpi/ak_tinygraphs
 
+[![CircleCI](https://circleci.com/gh/dpi/ak_tinygraphs.svg?style=svg)](https://circleci.com/gh/dpi/ak_tinygraphs)
+
 # Copyright and License
 
 Copyright 2017 Daniel Phin
