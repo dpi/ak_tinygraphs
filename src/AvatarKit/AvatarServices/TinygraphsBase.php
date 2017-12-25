@@ -61,9 +61,6 @@ abstract class TinygraphsBase extends AvatarServiceBase implements TinygraphsInt
       throw new \InvalidArgumentException('Missing Tinygraphs theme.');
     }
 
-    // Format.
-    $query['fmt'] = 'jpeg';
-
     $components['query'] = http_build_query($query);
 
     return \http_build_url($components);
