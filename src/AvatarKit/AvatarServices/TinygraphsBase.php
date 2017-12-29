@@ -32,7 +32,7 @@ abstract class TinygraphsBase extends AvatarServiceBase implements TinygraphsInt
   /**
    * {@inheritdoc}
    */
-  public function getAvatar(AvatarIdentifierInterface $identifier) : string {
+  public function getAvatar(AvatarIdentifierInterface $identifier) : ?string {
     $components = [];
 
     $components['scheme'] = $this->getConfiguration()->getProtocol();
